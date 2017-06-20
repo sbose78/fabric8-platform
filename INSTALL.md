@@ -37,7 +37,7 @@ bash <(curl -s https://raw.githubusercontent.com/fabric8io/fabric8-platform/mast
 
 ### Cleanup and re-try
 
-If for some reason, your installation isn't working and you wish to restart the installation process, here's hhow you could do a cleanup using [gofabric8](https://github.com/fabric8io/gofabric8#install--update--run)  :
-* gofabric cleanup
-* minishift stop
+If for some reason, your installation isn't working and you wish to restart the installation process, here's how you could do a cleanup using [gofabric8](https://github.com/fabric8io/gofabric8#install--update--run)  :
+* `gofabric cleanup`
+* `minishift stop`
 
