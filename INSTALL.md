@@ -34,3 +34,10 @@ bash <(curl -s https://raw.githubusercontent.com/fabric8io/fabric8-platform/mast
 
 * if you want to install a specific version of the [fabric8 system template](http://central.maven.org/maven2/io/fabric8/platform/packages/fabric8-system/) then you can pass it on the command line as an argument. Or add the argument `local` to use a local build.
 
+
+### Cleanup and re-try
+
+If for some reason, your installation isn't working and you wish to restart the installation process, here's hhow you could do a cleanup using [gofabric8](https://github.com/fabric8io/gofabric8#install--update--run)  :
+* gofabric cleanup
+* minishift stop
+
